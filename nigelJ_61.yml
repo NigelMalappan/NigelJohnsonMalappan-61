@@ -1,0 +1,11 @@
+---
+# Setup LAMP Stack
+- name: nigelmalappan-61
+  hosts: client_1
+  tasks:
+    - name: create a file
+      copy:
+         content: Nigel Johnson Malappan-Ansible Project
+         dest: /home/nigelJ_61.txt
+
+
